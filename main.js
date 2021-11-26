@@ -54,7 +54,7 @@
 
 let count = 0
 function increment() {
-    	count = count +1
+    	count += 1
         document.getElementById("yo").innerText = count
 }
 
@@ -65,7 +65,7 @@ function reset() {
 
 function off() {
     if (count > 0) {
-        count = count -1
+        count -= 1
         document.getElementById("yo").innerText = count
       }
       else {
@@ -73,20 +73,17 @@ function off() {
       }
 }
 
-// function save() {
-//     console.log(count)
-// }
 
-let welcomeEl = document.getElementById("welcome-el")
-let name = "Arosh "
-let greeting = "Welcome to the passenger count app!!"
-let emoji = ' tata'
-welcomeEl.innerText = welcomeEl.innerText + "tata"
 
-// }
+function save() {
+       let saveEl  = document.getElementById("save-el")
+       let text = count + " - "
+       saveEl.innerText += text
+}
 
-// let name = 'Arosh'
-// let greeting = 'Hi, My name is '
+let top_message = document.getElementById("topmsg")
+let namee = "Hello Arosh"
+let greet = " Welcome Back !!"
 
-// let myGreeting = greeting + name
-// console.log(myGreeting)
+top_message.innerText =  namee + greet
+

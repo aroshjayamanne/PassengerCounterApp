@@ -11,7 +11,7 @@ h2 {
     margin: 0%;
 }
 
-#inc {
+#increment-btn {
     background-color: green;
     color:aliceblue;
     padding: 2%;
@@ -23,18 +23,18 @@ h2 {
 }
 
 #reset {
-    background-color: red;
+    background-color: maroon;
     color:aliceblue;
     padding: 2%;
     border-radius: 20px;
-    border-color: red;
+    border-color: maroon;
     font-size: 24px;
     align-self: center;
 
  
 }
 
-#gotOff {
+#off {
     background-color:orange;
     color:aliceblue;
     padding: 2%;
@@ -45,12 +45,24 @@ h2 {
 }
 
 #save {
-    background-color:black;
+    background-color:grey;
     color:aliceblue;
     padding: 2%;
     border-radius: 20px;
-    border-color: black;
+    border-color: gray;
     font-size: 24px;
     align-self: center;
     align-content: center;
+}
+
+#topmsg {
+    font-size: 36px;
+    text-align: center;
+    color: grey;
+}
+
+#save-el {
+    font-size: 36px;
+    text-align: center;
+    color: grey; 
 }
