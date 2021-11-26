@@ -81,7 +81,6 @@ let welcomeEl = document.getElementById("welcome-el")
 let name = "Arosh "
 let greeting = "Welcome to the passenger count app!!"
 let emoji = ' tata'
-// greeting = greeting + emoji
 welcomeEl.innerText = welcomeEl.innerText + "tata"
 
 // }
