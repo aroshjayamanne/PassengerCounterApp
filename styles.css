@@ -1,0 +1,56 @@
+h1 {
+    font-size: 24;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    font-size: 136px;
+    color: blue;
+    text-align: center;
+    margin: 0%;
+}
+
+#inc {
+    background-color: green;
+    color:aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: green;
+    font-size: 24px;
+    align-self: center;
+
+}
+
+#reset {
+    background-color: red;
+    color:aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: red;
+    font-size: 24px;
+    align-self: center;
+
+ 
+}
+
+#gotOff {
+    background-color:orange;
+    color:aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: orange;
+    font-size: 24px;
+    align-self: center;
+}
+
+#save {
+    background-color:black;
+    color:aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 24px;
+    align-self: center;
+    align-content: center;
+}
